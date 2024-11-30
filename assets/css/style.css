@@ -1,16 +1,4 @@
 /*-----------------------------------*\
-  #index.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -117,8 +105,6 @@
 
 
 
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -198,8 +184,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-
-
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
@@ -254,8 +238,6 @@ body.nav-active { overflow: hidden; }
 .label-1 { font-size: var(--fontSize-label-1); }
 
 .label-2 { font-size: var(--fontSize-label-2); }
-
-
 
 
 
@@ -512,9 +494,6 @@ body.nav-active { overflow: hidden; }
 .icon-wrapper ion-icon:first-child { left: 15px; }
 
 .icon-wrapper ion-icon:last-child { right: 10px; }
-
-
-
 
 
 /*-----------------------------------*\
@@ -940,9 +919,6 @@ body.nav-active { overflow: hidden; }
 .service .card-title { margin-block-end: 12px; }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -1002,9 +978,6 @@ body.nav-active { overflow: hidden; }
 }
 
 
-
-
-
 /*-----------------------------------*\
   #SPECIAL DISH
 \*-----------------------------------*/
@@ -1034,9 +1007,6 @@ body.nav-active { overflow: hidden; }
 .special-dish-content .span { color: var(--gold-crayola); }
 
 .special-dish .btn { margin-inline: auto; }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1116,49 +1086,6 @@ body.nav-active { overflow: hidden; }
   bottom: 0;
   right: 0;
 }
-
-
-
-
-
-/*-----------------------------------*\
-  #TESTIMONIALS
-\*-----------------------------------*/
-
-.testi {
-  padding-block-end: 340px;
-  position: static;
-}
-
-.testi .quote {
-  font-size: 7rem;
-  font-family: var(--fontFamily-forum);
-  line-height: 0.7em;
-}
-
-.testi .wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 2px;
-  margin-block: 40px 50px;
-}
-
-.testi .separator { animation: rotate360 15s linear infinite; }
-
-.profile .img {
-  margin-inline: auto;
-  border-radius: var(--radius-circle);
-  margin-block-end: 15px;
-}
-
-.testi .profile-name {
-  color: var(--gold-crayola);
-  font-weight: var(--weight-bold);
-  text-transform: uppercase;
-  letter-spacing: var(--letterSpacing-3);
-}
-
-
 
 
 
@@ -1438,10 +1365,6 @@ textarea.input-field {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
-/**
- * responsive for larger than 575px screen
- */
-
 @media (min-width: 575px) {
 
   /**
@@ -1635,11 +1558,6 @@ textarea.input-field {
 
 
 
-
-/**
- * responsive for larger than 768px screen
- */
-
 @media (min-width: 768px) {
 
   /**
@@ -1724,12 +1642,6 @@ textarea.input-field {
 
 
 
-
-
-/**
- * responsive for larger than 992px screen
- */
-
 @media (min-width: 992px) {
 
   /**
@@ -1803,34 +1715,6 @@ textarea.input-field {
 
 
   /**
-   * SPECIAL DISH
-   */
-
-  .special-dish {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: left;
-  }
-
-  .special-dish-content { padding-inline: 50px 25px; }
-
-  .special-dish-content .container { position: relative; }
-
-  .special-dish .section-subtitle::after,
-  .special-dish .btn { margin-inline: 0; }
-
-  .special-dish-content .wrapper { justify-content: flex-start; }
-
-  .special-dish .abs-img {
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    animation: move 5s linear infinite;
-  }
-
-
-
-  /**
    * MENU
    */
 
@@ -1848,16 +1732,6 @@ textarea.input-field {
     border-inline-start: 1px solid var(--white-alpha-20);
   }
 
-
-
-  /**
-   * TESTIMONIALS
-   */
-
-  .testi-text {
-    max-width: 910px;
-    margin-inline: auto;
-  }
 
 
 
@@ -1893,11 +1767,6 @@ textarea.input-field {
 
 
 
-
-
-/**
- * responsive for larger than 1200px screen
- */
 
 @media (min-width: 1200px) {
 
@@ -2066,12 +1935,6 @@ textarea.input-field {
 }
 
 
-
-
-
-/**
- * responsive for larger than 1400px screen
- */
 
 @media (min-width: 1400px) {
 
